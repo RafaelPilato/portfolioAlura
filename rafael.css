@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__links{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #22D4FD;
+}
+
+.curriculo{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.curriculo__dadosPessoais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curriculo__dadosPessoais__nome{
+    margin: 50px;
+    font-size: 40px;
+    font-family: "Anta", sans-serif;
+}
+
+.curriculo__dadosPessoais__subtitulo{
+    margin: 10px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+li{
+    padding: 1px;
+}
+.curriculo__dadosPessoais__lista{
+    font-family: "Lato", sans-serif;
+    margin-bottom: 65px;
+    font-size: 18px;
+}
+
+.curriculo__foto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.curriculo__objetivo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0 40px 0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+}
+
+.curriculo__objetivo__destaque{
+    color: #22D4FD;
+}
+
+.curriculo__habilidades{
+    margin: 0 20% 0 20% ;
+}
+
+h2{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    padding: 5px 0 5px 0;
+}
+
+p{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    padding: 2px 0 2px 30px;
+    margin-bottom: 30px;
+}
+
+.curriculo__habilidades__listprincipal{
+    list-style-type:square;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
+
+.curriculo__habilidades__listsecundaria{
+    list-style-type: circle;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
